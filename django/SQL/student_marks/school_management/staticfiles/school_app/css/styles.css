@@ -1,33 +1,61 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f8f9fa;
     margin: 0;
     padding: 0;
 }
 
-h1 {
-    color: #333;
-    text-align: center;
+.container {
     margin-top: 20px;
 }
 
-.container {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+/* Navbar Styles */
+.navbar {
+    margin-bottom: 20px;
 }
 
-.button {
-    display: inline-block;
-    padding: 10px 20px;
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Card Styles */
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-size: 1.25rem;
+}
+
+/* Button Styles */
+.btn {
+    margin: 5px;
+}
+
+/* Table Styles */
+.table {
+    margin-top: 20px;
+}
+
+.table th {
     background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
+    color: white;
 }
 
-.button:hover {
-    background-color: #0056b3;
+/* Alert Styles */
+.alert {
+    margin-top: 20px;
+}
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
 }
