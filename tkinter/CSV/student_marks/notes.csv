@@ -1,0 +1,21 @@
+Module,Note
+Introduction to IoT,IoT connects physical devices to the internet.
+Data Analytics for IoT,Data analytics helps in making sense of IoT data.
+Big Data Fundamentals,Big data is characterized by volume, velocity, and variety.
+Data Visualization,Data visualization helps in understanding complex data.
+Cybersecurity Basics,Cybersecurity protects systems from digital attacks.
+Network Security,Network security ensures the integrity of data in transit.
+Introduction to AI,AI enables machines to mimic human intelligence.
+Machine Learning Basics,Machine learning uses algorithms to learn from data.
+Cloud Computing Fundamentals,Cloud computing provides on-demand computing resources.
+AWS Essentials,AWS is a leading cloud service provider.
+Software Engineering Principles,Software engineering involves systematic development.
+Agile Development,Agile focuses on iterative development and collaboration.
+Data Science Basics,Data science combines statistics, programming, and domain knowledge.
+Python for Data Science,Python is widely used for data analysis and visualization.
+Blockchain Fundamentals,Blockchain ensures transparency and security.
+Smart Contracts,Smart contracts automate agreements using code.
+Full Stack Development Basics,Full stack development involves both front-end and back-end.
+React and Node.js,React is for front-end, and Node.js is for back-end development.
+DevOps Fundamentals,DevOps bridges the gap between development and operations.
+CI/CD Pipelines,CI/CD automates the software delivery process.

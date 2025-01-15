@@ -1,0 +1,41 @@
+Module,User,Message
+Introduction to IoT,Teacher,Welcome to the Introduction to IoT module!
+Introduction to IoT,Student,Can someone explain how IoT devices communicate?
+Data Analytics for IoT,Teacher,Welcome to the Data Analytics for IoT module!
+Data Analytics for IoT,Student,What tools are used for IoT data analysis?
+Big Data Fundamentals,Teacher,Welcome to the Big Data Fundamentals module!
+Big Data Fundamentals,Student,What are the key characteristics of big data?
+Data Visualization,Teacher,Welcome to the Data Visualization module!
+Data Visualization,Student,Which tool is better for visualization: Tableau or Power BI?
+Cybersecurity Basics,Teacher,Welcome to the Cybersecurity Basics module!
+Cybersecurity Basics,Student,What is the difference between encryption and hashing?
+Network Security,Teacher,Welcome to the Network Security module!
+Network Security,Student,How does a firewall work?
+Introduction to AI,Teacher,Welcome to the Introduction to AI module!
+Introduction to AI,Student,What are the main applications of AI?
+Machine Learning Basics,Teacher,Welcome to the Machine Learning Basics module!
+Machine Learning Basics,Student,What is the difference between supervised and unsupervised learning?
+Cloud Computing Fundamentals,Teacher,Welcome to the Cloud Computing Fundamentals module!
+Cloud Computing Fundamentals,Student,What are the benefits of cloud computing?
+AWS Essentials,Teacher,Welcome to the AWS Essentials module!
+AWS Essentials,Student,What is the difference between S3 and EC2?
+Software Engineering Principles,Teacher,Welcome to the Software Engineering Principles module!
+Software Engineering Principles,Student,What are the phases of the SDLC?
+Agile Development,Teacher,Welcome to the Agile Development module!
+Agile Development,Student,What is the role of a Scrum Master?
+Data Science Basics,Teacher,Welcome to the Data Science Basics module!
+Data Science Basics,Student,What is the difference between data science and data analytics?
+Python for Data Science,Teacher,Welcome to the Python for Data Science module!
+Python for Data Science,Student,What libraries are commonly used in Python for data science?
+Blockchain Fundamentals,Teacher,Welcome to the Blockchain Fundamentals module!
+Blockchain Fundamentals,Student,What is the difference between public and private blockchains?
+Smart Contracts,Teacher,Welcome to the Smart Contracts module!
+Smart Contracts,Student,What programming language is used for Ethereum smart contracts?
+Full Stack Development Basics,Teacher,Welcome to the Full Stack Development Basics module!
+Full Stack Development Basics,Student,What is the difference between front-end and back-end development?
+React and Node.js,Teacher,Welcome to the React and Node.js module!
+React and Node.js,Student,What is the purpose of React components?
+DevOps Fundamentals,Teacher,Welcome to the DevOps Fundamentals module!
+DevOps Fundamentals,Student,What is the role of CI/CD in DevOps?
+CI/CD Pipelines,Teacher,Welcome to the CI/CD Pipelines module!
+CI/CD Pipelines,Student,What is the difference between Jenkins and GitLab CI?

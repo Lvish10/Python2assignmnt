@@ -1,0 +1,21 @@
+Module,Quiz,Answer
+Introduction to IoT,What is IoT?,Internet of Things
+Data Analytics for IoT,What is a sensor?,A device that detects changes in the environment
+Big Data Fundamentals,What is Hadoop?,A framework for distributed storage
+Data Visualization,What is Tableau?,A data visualization tool
+Cybersecurity Basics,What is a firewall?,A network security system
+Network Security,What is encryption?,The process of encoding data
+Introduction to AI,What is AI?,Artificial Intelligence
+Machine Learning Basics,What is supervised learning?,A type of machine learning with labeled data
+Cloud Computing Fundamentals,What is cloud computing?,Delivery of computing services over the internet
+AWS Essentials,What is S3?,Simple Storage Service
+Software Engineering Principles,What is SDLC?,Software Development Life Cycle
+Agile Development,What is a sprint?,A time-boxed iteration in Agile
+Data Science Basics,What is a DataFrame?,A 2D data structure in Python
+Python for Data Science,What is Pandas?,A Python library for data manipulation
+Blockchain Fundamentals,What is a blockchain?,A decentralized digital ledger
+Smart Contracts,What is Solidity?,A programming language for smart contracts
+Full Stack Development Basics,What is HTML?,HyperText Markup Language
+React and Node.js,What is React?,A JavaScript library for building UIs
+DevOps Fundamentals,What is DevOps?,A set of practices combining development and operations
+CI/CD Pipelines,What is Jenkins?,An automation server for CI/CD

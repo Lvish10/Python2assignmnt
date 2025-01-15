@@ -1,0 +1,12 @@
+Student ID,Name,Age,Class,Address,Medical Info,Password,Cohort
+1,Jean Pierre,15,10A,Rose Hill,None,student123,Diploma in Emerging Tech (IoT) Cohort 6
+2,Marie Ange,16,10B,Port Louis,Allergies,student123,Diploma in Emerging Tech (BDA) Cohort 6
+3,Kevin Li,14,9A,Curepipe,None,student123,Diploma in Cybersecurity Cohort 5
+4,Sarah Lee,17,11A,Quatre Bornes,None,student123,Diploma in AI and ML Cohort 4
+5,Rajesh Patel,16,10C,Flacq,None,student123,Diploma in Cloud Computing Cohort 3
+6,Anita Devi,15,10D,Goodlands,None,student123,Diploma in Software Engineering Cohort 7
+7,David Wong,16,11B,Beau Bassin,None,student123,Diploma in Data Science Cohort 5
+8,Sophie Chen,14,9B,Vacoas,None,student123,Diploma in Blockchain Technology Cohort 2
+9,Pauline Martin,17,12A,Mahebourg,None,student123,Diploma in Full Stack Development Cohort 8
+10,Ahmed Khan,16,10E,Triolet,None,student123,Diploma in DevOps Cohort 4
+1007,Lavish,20,IoT6,Chemin-Grenier,None,b'$2b$12$l1N.HHcRY239o0DtYPdhiu9Wi7daQYwCZmMdZGQzoCvSQsruD1amW',Diploma in Emerging Tech (IoT) Cohort 6
