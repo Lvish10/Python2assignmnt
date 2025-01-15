@@ -1,0 +1,14 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}Home - School Management System{% endblock %}
+
+{% block content %}
+<div class="jumbotron text-center">
+    <h1 class="display-4">Welcome to the School Management System</h1>
+    <p class="lead">Manage students, attendance, marks, and more!</p>
+    <hr class="my-4">
+    <p>Choose your role to get started:</p>
+    <a href="{% url 'teacher_login' %}" class="btn btn-primary btn-lg">Teacher Login</a>
+    <a href="{% url 'student_login' %}" class="btn btn-success btn-lg">Student Login</a>
+</div>
+{% endblock %}

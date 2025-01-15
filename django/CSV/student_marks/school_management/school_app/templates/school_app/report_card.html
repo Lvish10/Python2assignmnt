@@ -1,0 +1,66 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}Report Card - School Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Report Card for {{ student.1 }} (ID: {{ student.0 }})</h2>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Student Information</h5>
+            <p><strong>Name:</strong> {{ student.1 }}</p>
+            <p><strong>Age:</strong> {{ student.2 }}</p>
+            <p><strong>Class:</strong> {{ student.3 }}</p>
+            <p><strong>Address:</strong> {{ student.4 }}</p>
+            <p><strong>Medical Info:</strong> {{ student.5 }}</p>
+            <p><strong>Cohort:</strong> {{ student.7 }}</p>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5 class="card-title">Marks</h5>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Marks</th>
+                        <th>Comments</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for mark in marks %}
+                    <tr>
+                        <td>{{ mark.1 }}</td>
+                        <td>{{ mark.2 }}</td>
+                        <td>{{ mark.3 }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5 class="card-title">Attendance</h5>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Subject</th>
+                        <th>Attendance (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for att in attendance %}
+                    <tr>
+                        <td>{{ att.1 }}</td>
+                        <td>{{ att.2 }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

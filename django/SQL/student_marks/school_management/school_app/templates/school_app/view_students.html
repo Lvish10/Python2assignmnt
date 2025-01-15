@@ -1,0 +1,35 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}View Students - School Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Student List</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Class</th>
+                <th>Address</th>
+                <th>Medical Info</th>
+                <th>Cohort</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for student in students %}
+            <tr>
+                <td>{{ student.student_id }}</td>
+                <td>{{ student.name }}</td>
+                <td>{{ student.age }}</td>
+                <td>{{ student.student_class }}</td>
+                <td>{{ student.address }}</td>
+                <td>{{ student.medical_info }}</td>
+                <td>{{ student.cohort }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

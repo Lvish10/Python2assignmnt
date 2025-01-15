@@ -1,0 +1,25 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}Manage Attendance - School Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Manage Attendance</h2>
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="student_id">Student ID:</label>
+            <input type="text" id="student_id" name="student_id" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="attendance">Attendance (%):</label>
+            <input type="number" id="attendance" name="attendance" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Mark Attendance</button>
+    </form>
+</div>
+{% endblock %}

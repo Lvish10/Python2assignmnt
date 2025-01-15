@@ -1,0 +1,25 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}View Modules - School Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Your Modules</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Module</th>
+                <th>Subject</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for module in student_modules %}
+            <tr>
+                <td>{{ module.module_name }}</td>
+                <td>{{ module.subject }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

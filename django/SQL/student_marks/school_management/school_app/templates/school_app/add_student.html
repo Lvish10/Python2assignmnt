@@ -1,0 +1,45 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}Add Student - School Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Add Student</h2>
+    <form method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="student_id">Student ID:</label>
+            <input type="text" id="student_id" name="student_id" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="age" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="class">Class:</label>
+            <input type="text" id="class" name="class" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="address">Address:</label>
+            <input type="text" id="address" name="address" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="medical_info">Medical Info:</label>
+            <input type="text" id="medical_info" name="medical_info" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="cohort">Cohort:</label>
+            <input type="text" id="cohort" name="cohort" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Add Student</button>
+    </form>
+</div>
+{% endblock %}

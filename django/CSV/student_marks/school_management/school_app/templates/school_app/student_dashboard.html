@@ -1,0 +1,48 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}Student Dashboard - School Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Welcome, {{ student.1 }}!</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">View Marks</h5>
+                    <p class="card-text">Check your marks for all subjects.</p>
+                    <a href="{% url 'view_marks' student_id=student.0 %}" class="btn btn-primary">View Marks</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">View Attendance</h5>
+                    <p class="card-text">Check your attendance records.</p>
+                    <a href="{% url 'view_attendance' student_id=student.0 %}" class="btn btn-success">View
+                        Attendance</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">View Modules</h5>
+                    <p class="card-text">View your Modules.</p>
+                    <a href="{% url 'view_modules' student_id=student.0 %}" class="btn btn-info">View Modules</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">View Quizzes</h5>
+                    <p class="card-text">View your Quizzes.</p>
+                    <a href="{% url 'view_quizzes' student_id=student.0 %}" class="btn btn-info">View Quizzes</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

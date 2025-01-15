@@ -1,0 +1,27 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}View Quizzes - School Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Quizzes</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Module</th>
+                <th>Quiz</th>
+                <th>Answer</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for quiz in student_quizzes %}
+            <tr>
+                <td>{{ quiz.0 }}</td>
+                <td>{{ quiz.1 }}</td>
+                <td>{{ quiz.2 }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

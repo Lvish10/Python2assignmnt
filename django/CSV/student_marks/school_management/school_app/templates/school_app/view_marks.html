@@ -1,0 +1,27 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}View Marks - School Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Marks for {{ student.1 }}</h2>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+                <th>Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for mark in student_marks %}
+            <tr>
+                <td>{{ mark.1 }}</td>
+                <td>{{ mark.2 }}</td>
+                <td>{{ mark.3 }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends 'school_app/base.html' %}
+
+{% block title %}Teacher Visualizations - School Management System{% endblock %}
+
+{% block content %}
+<div class="container">
+    <h2>Teacher Visualizations</h2>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Average Marks by Subject</h5>
+            <img src="data:image/png;base64,{{ image }}" alt="Average Marks by Subject" class="img-fluid">
+        </div>
+    </div>
+</div>
+{% endblock %}
